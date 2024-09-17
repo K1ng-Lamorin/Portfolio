@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Everyday with Isa</title>
+
+    <!-- for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- for icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background-color: #c8d9ed;
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+        color: #28465e;
+        height: 100vh;
+      }
+
+      .container {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 5rem 15rem 5rem 15rem;
+      }
+
+      .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+      }
+
+      .pic {
+        border-radius: 100%;
+        width: 15rem;
+        height: auto;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+          0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      }
+
+      .name {
+        font-size: 0.875rem;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .divider {
+        border: 0;
+        border-top: 1px solid #8bb2d3;
+        margin: 0;
+      }
+
+      .pic1,
+      .pic2,
+      .pic3 {
+        padding: 1rem 1rem 3.5rem 1rem;
+        background-color: #eaedef;
+        border-radius: 5px;
+      }
+
+      .promotions {
+        padding: 0rem 6rem 0rem 6rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+      }
+
+      .font-change {
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-optical-sizing: auto;
+        font-size: 1.3rem;
+      }
+
+      .post1,
+      .post2,
+      .post3 {
+        display: flex;
+        gap: 2.2rem;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 2rem;
+        margin: 0px;
+      }
+
+      p,
+      li {
+        font-weight: normal;
+        line-height: 1.7;
+        margin-top: 0px;
+        font-size: 20px;
+      }
+
+      h4 {
+        margin: 10px;
+      }
+
+      .btn {
+        display: flex;
+      }
+
+      .back-btn {
+        display: flex;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        background-color: #ffcdd5;
+        color: #5a636c;
+        text-decoration: none;
+        border-radius: 5px;
+        border-color: #647a8c;
+        border: solid 0.01rem;
+      }
+
+      .back-btn:hover {
+        background-color: #e2bbc1;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .contact {
+        display: flex;
+        justify-content: center;
+      }
+
+      .icon-label {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        margin-right: 0.25rem;
+      }
+
+      .email,
+      .phone,
+      .location {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <a href="#contact">
+          <img
+            class="pic"
+            src="https://raw.githubusercontent.com/cbatuic/fashion-blog/main/profile.jpg"
+            alt="isa pic"
+          />
+        </a>
+        <h3 class="name">by Isabelle Rodriguez | 1 day ago</h3>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="promotions">
+        <div class="post1">
+          <img
+            class="pic1"
+            src="https://raw.githubusercontent.com/cbatuic/fashion-blog/main/image-one.jpeg"
+            alt="first"
+          />
+          <div class="details1">
+            <h1>An Insiders Guide to NYFW</h1>
+            <p class="font-change">
+              <a
+                target="_blank"
+                href="https://en.wikipedia.org/wiki/New_York_Fashion_Week."
+                >NYFW</a
+              >
+              can be both amzingly fun & incredibly overwhelming. Especially if
+              you've never been. Luckily, I'm here to give you an insiders guide
+              and make your first show pleasurable experience. By taking my tips
+              and tricks, and following your gut. Youll have an unforgettable
+              experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="post2">
+          <div class="details2">
+            <h2>Getting tickets and & Picking the shows</h2>
+            <p class="font-change">
+              If you're lucky or connected, you can get an invite sans the price
+              tag. But I wasnt so lucky or connected my first 2 years so I'm
+              here to help you out. First, plan out which shows are the most
+              important to you and make a schedule and this is a Biggie: SET A
+              BUDGET. If you're worrying about blowing your cash the whole time
+              you won't have fun. Then check out prices, days and time and
+              priioritize the designers you want to see the most. Lastly,
+              purchase your tickets and get excited!
+            </p>
+          </div>
+          <img
+            class="pic2"
+            src="https://raw.githubusercontent.com/cbatuic/fashion-blog/main/image-two.jpeg"
+            alt="second"
+          />
+        </div>
+
+        <div class="post3">
+          <img
+            class="pic3"
+            src="https://raw.githubusercontent.com/cbatuic/fashion-blog/main/image-three.jpeg"
+            alt="third"
+          />
+          <div class="details3">
+            <h2>Dressing of the shows</h2>
+            <p class="font-change">
+              Always be true to your own sense of style, if you don’t you’ll be
+              uncomfortable the whole time and it will show. Remember, NYFW is
+              about expressing yourself and taking in what the designers have
+              chosen to express through their new lines. Also it’s important to
+              wear shoes you’ll be comfortable in all day. Obviously, you want
+              to look good, but you’ll be on your feet all day long, so be
+              prepared.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <h4>Related Content</h4>
+          <ul>
+            <li>"How to style Boyfriend Jeans"</li>
+            <li>“When Print Is Too Much”</li>
+            <li>“The Overalls Trend”</li>
+            <li>“Fall’s It Colo: Blush”</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <div id="contact">
+        <div class="contact">
+          <p class="email">
+            <strong class="icon-label">
+              <i class="material-icons">email</i>
+              Email:
+            </strong>
+            <a href="mailto:isa@fashionblog.com">isa@fashionblog.com</a>
+          </p>
+
+          |
+
+          <p class="phone">
+            <strong class="icon-label">
+              <i class="material-icons">local_phone</i>
+              Phone:
+            </strong>
+            917-555-1098
+          </p>
+
+          |
+
+          <p class="location">
+            <strong class="icon-label">
+              <i class="material-icons">location_on</i>
+              Address:
+            </strong>
+            371 284th St., New York, NY, 10001
+          </p>
+        </div>
+      </div>
+
+      <div class="btn">
+        <a href="index.html" class="back-btn">
+          <div class="icon-label">
+            <i class="material-icons">arrow_back</i>
+            Back to Main Page
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
