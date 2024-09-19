@@ -153,3 +153,7 @@ body {
   .fashionblog-btn i.material-icons {
     font-size: 1.5rem; 
     margin-left: 0.5rem;}
+
+  table, th, td{
+    border: 2.5px solid rgb(38, 61, 108);
+  }
