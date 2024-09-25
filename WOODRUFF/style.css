@@ -1,0 +1,19 @@
+body{
+    font-family: Georgia;
+    background-image: url("hypnotize_bg.webp");
+}
+.header{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.about-me{
+font-size:20px;
+opacity: 50%;
+}
+.title{
+    font-weight: bold;
+}
+h1{
+color: azure;
+}
+    
